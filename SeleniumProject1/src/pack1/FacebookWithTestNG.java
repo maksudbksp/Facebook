@@ -67,6 +67,7 @@ public class FacebookWithTestNG {
 	@AfterTest
 	public void CloseBrowser() {
 		driver.close();
+		System.out.println("Facebook signup success");
 
 	}
 
